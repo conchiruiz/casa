@@ -1,0 +1,85 @@
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    width: 1200px;
+    height:1200px;
+    position:relative;
+}
+
+#container{
+    width: 500px;
+    height: 600px;
+    background-color: skyblue;
+   left:300px;
+   right:300px;
+   top: 250px;
+   bottom: 250px;
+    position: relative;
+    
+    
+}
+#fachada{
+    width: 300px;
+    height: 400px;
+    background-color: burlywood;
+    background-image:url(fondopiedra.jpg);
+    position:absolute;
+    bottom:0;
+   left: 100px;
+    
+    
+}
+
+#puerta{
+    
+    background-color:burlywood;
+    width: 100px;
+    height: 150px;
+    left: 100px;
+    right:100px;
+    position: absolute;
+    bottom:0;    
+    
+}
+
+#tejado{
+    background-image:url(tejado.jpg);
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+   
+    
+}
+#ventana1{
+    width: 80px;
+    height:60px;
+    border:3px double brown; 
+    top: 100px;
+    left: 30px;
+    position:absolute;
+    
+    
+    
+}
+#ventana2{
+    width: 80px;
+    height:60px;
+    border:3px double brown; 
+    top: 100px;
+    right: 30px;
+    position:absolute;
+    
+    
+    
+}
+
+
+
