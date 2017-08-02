@@ -1,5 +1,6 @@
 
 
+
 *{
     margin:0;
     padding:0;
@@ -13,25 +14,39 @@ body{
 }
 
 #container{
-    width: 500px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     background-color: skyblue;
-   left:300px;
-   right:300px;
-   top: 250px;
-   bottom: 250px;
+    left:250px;
+    right:250px;
+    bottom:0;
+    top:500px;
     position: relative;
     
     
 }
+#chimenea{
+     width: 100px;
+     height: 150px;
+     background-image: url(CHIMENEA.gif);
+     background-size: cover;
+     z-index:1;
+     position: relative;
+     top: 240px;
+     left: 400px;
+   
+}
+
+
 #fachada{
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
     background-color: burlywood;
-    background-image:url(fondopiedra.jpg);
+    background-image:url(fondo10.jpg);
     position:absolute;
     bottom:0;
-   left: 100px;
+    left: 175px;
+    right: 175px;
     
     
 }
@@ -39,47 +54,70 @@ body{
 #puerta{
     
     background-color:burlywood;
+    background-image:url(puerta.jpg);
+    background-size: contain;
     width: 100px;
-    height: 150px;
-    left: 100px;
-    right:100px;
+    height: 125px;
+    left: 125px;
+    right: 125px;
     position: absolute;
     bottom:0;    
     
 }
 
 #tejado{
-    background-image:url(tejado.jpg);
-    width: 300px;
+    background-image:url(tejado1.jpg);
+    background-size: cover;
+    width: 350px;
     height: 80px;
     position: absolute;
-    top: 130px;
+    top: 350px;
+    left: 175px;
+    
+}
+#nube{
+    position:absolute;
+    top: 80px;
     left: 100px;
-   
+}
+#nubegrande{
+    position:absolute;
+    top: 80px;
+    left:150px;
     
 }
 #ventana1{
-    width: 80px;
-    height:60px;
-    border:3px double brown; 
-    top: 100px;
-    left: 30px;
-    position:absolute;
-    
+    width: 50px;
+    height: 50px;
+    border:8px groove peru;
+    position: relative;
+    top:50px;
+    left:50px;
+    background-color: burlywood;
+    float:left;
+    background-image: url(mu%C3%B1eco.gif);
+    background-size: cover;
+    background-color: burlywood;
+   
     
     
 }
 #ventana2{
-    width: 80px;
-    height:60px;
-    border:3px double brown; 
-    top: 100px;
-    right: 30px;
-    position:absolute;
-    
-    
-    
+    width: 50px;
+    height: 50px;
+    border:8px groove peru;
+    position: relative;
+    top:50px;
+    right:50px;
+    float:right;
+    background-image: url(muñeco.gif);
+    background-size: cover;
+    background-color: burlywood;
+   
+   
 }
 
+    
+  
 
 
