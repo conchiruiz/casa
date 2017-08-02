@@ -15,12 +15,12 @@ body{
 
 #container{
     width: 700px;
-    height: 700px;
+    height: 500px;
     background-color: skyblue;
     left:250px;
     right:250px;
-    bottom:0;
-    top:500px;
+   
+   
     position: relative;
     
     
@@ -31,8 +31,8 @@ body{
      background-image: url(CHIMENEA.gif);
      background-size: cover;
      z-index:1;
-     position: relative;
-     top: 240px;
+     position: absolute;
+     bottom: 350px;
      left: 400px;
    
 }
@@ -71,18 +71,18 @@ body{
     width: 350px;
     height: 80px;
     position: absolute;
-    top: 350px;
+    bottom: 300px;
     left: 175px;
     
 }
 #nube{
     position:absolute;
-    top: 80px;
-    left: 100px;
+    bottom: 400px;
+    left: 50px;
 }
 #nubegrande{
     position:absolute;
-    top: 80px;
+    bottom: 350px;
     left:150px;
     
 }
